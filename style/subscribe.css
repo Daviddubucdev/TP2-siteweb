@@ -1,0 +1,53 @@
+/* Styles for the main section */
+.mainsection {
+    height: 10rem;
+    width: 75rem;
+}
+
+/* Styles for the main container */
+.maintop {
+    display: inline-block;
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 6rem;
+}
+
+/* Styles for the adhesion boxes */
+.adhesionbox {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+/* Styles for the adhesion table cells */
+.adhesion-table td {
+    border: 0.5px solid darkslategrey;
+    display: flex;
+    flex: 14;
+    justify-content: space-around;
+}
+
+/* Styles for the adhesion table rows */
+.adhesion-table tr {
+    border: 0.5px solid darkslategrey;
+    border-radius: 5%;
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+}
+
+/* Styles for the adhesion table headers */
+.adhesion-table th {
+    border: 0.5px solid darkslategrey;
+    display: flex;
+    flex: 7;
+    justify-content: space-around;
+}
+
+/* Styles for the main section */
+main {
+    background-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
