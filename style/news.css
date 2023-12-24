@@ -9,6 +9,7 @@
 
 body {
     background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 
 
 }
@@ -68,3 +69,9 @@ h2 a{
 a:active{
     color: #ff4b00;
 }
+
+a:hover{
+    color: #f8a433;
+
+}
+
