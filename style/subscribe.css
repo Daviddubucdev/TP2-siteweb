@@ -1,3 +1,5 @@
+
+
 .pricingarray-page-container{
     display: flex;
     flex-direction: column;
@@ -6,6 +8,7 @@
     width:100%;
     height:auto;
     margin:0 auto;
+    
 
 }
 
@@ -24,8 +27,8 @@
     height:20%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
+    align-items:center;
+    }
 
 .pricingarray-row-big{
    width:100%;
@@ -35,7 +38,7 @@
    align-items: center;
 
 }
-.pricingarray-square-rowsmallfirst{
+.pricingarray-square-rowsmallfirst {
 width:10%;
 height:100%;
 }
@@ -43,9 +46,12 @@ height:100%;
     width:10%;
     height:100%;
     border:0.5px solid black;
+    text-align: center;
 }
 .pricingarray-square-row{
     width:30%;
     height:100%;
     border:0.5px solid black;
+    text-align: center;
+
 }
