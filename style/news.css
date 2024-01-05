@@ -64,23 +64,25 @@ footer{
     
 }
 
-h1 {
-    margin:1rem;
-    padding-top:1rem;
-    color:#333333;
+h2, h1 {
+    width: fit-content;
+    margin-left:5rem;
+    color: #333333;
+    margin-top:3rem;
+    background-color: #ffa90d;
+    font-weight: 200;
+    border-radius: 8%;
 }
 
-h2 a{
-    text-decoration: none;
-    padding-bottom: 2rem;
-}
+
+
 
 a:active{
-    color: #ff4b00;
+    color:#003057;
 }
 
 a:hover{
-    color: #f8a433;
+    color:#ffffff;
 
 }
 

@@ -4,11 +4,16 @@
     --couleur-tertiaire: #ffa90d;
     --couleur-texte: #333333;
     --couleur-fond: #ffffff;
+    --couleur-fond2:cadetblue;
     --couleur-surbrillance: #ff4b00;
+}
+body{
+    background-image:url(../asset/img/jdq.svg);
+    background-size:15%;
+
 }
 main {
     font-family: 'Poppins', sans-serif;
-    background-color:#ffa90d;
 }
 .main-section1{
 display: flex;
@@ -93,7 +98,11 @@ height:25rem;
 
 
 h2, h3 {
+    width: fit-content;
     margin-left:5rem;
     color: #333333;
     margin-top:3rem;
+    background-color: #ffa90d;
+    font-weight: 200;
+    border-radius: 8%;
 }
