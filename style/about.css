@@ -7,6 +7,63 @@
     --couleur-fond2:cadetblue;
     --couleur-surbrillance: #ff4b00;
 }
-body{background-image:url(../asset/img/jdq.svg);
-background-size:15%;
+
+h1 {
+    width: fit-content;
+    margin-left:5rem;
+    color: #333333;
+    margin-top:3rem;
+    margin-left:10rem;
+    background-color: #ffa90d;
+    border-radius: 8%;
+    padding:1rem;
+    padding-right:5rem;
+    box-shadow:10px 10px 10px 10px,0px 0px 0px 0px,15px 15px 5px 5px,0px 0px 0px 0px;
+
+}
+.contact-link{
+    display:inline-block;
+    width: auto;
+    margin:5% 0% 0% 20%;
+    box-shadow:-2px 5px 2px 2px #333333, 2px 2px 2px 2px, 2px 2px 2px 2px,  2px 2px 2px 2px #003057 ;
+    font-weight: 500;
+    padding:0.5rem;
+}
+
+
+#telephone, a{
+    text-decoration:none;
+    color:#ff4b00;
+    font-weight: 600;
+}
+
+#email, a{
+    text-decoration:none;
+    color:#ff4b00;
+    font-weight: 600;
+}
+
+a:hover{
+    color:#003057;
+}
+h2{
+    color:#ffffff;
+    width:22%;
+    margin-left:13rem;
+    margin-top:3rem;
+    background-color:#333333;
+    padding:1rem;
+    box-shadow:10px 10px 10px 10px ,0px 0px 0px 0px,15px 15px 5px 5px ,0px 0px 0px 0px;
+
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75%;
+}
+  .map-container iframe {
+    position: absolute;
+    width:75%;
+
 }

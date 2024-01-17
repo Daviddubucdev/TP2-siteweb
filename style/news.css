@@ -14,10 +14,10 @@ body {
 
 
 }
-
-main{
-    background-color: cadetblue;
+a{
+    text-decoration: none;
 }
+
 footer{
     width: 1440px;
     height:95px;
@@ -29,6 +29,7 @@ footer{
     top:98px;
     margin-left:5rem ;
     margin-right:5rem;
+    background-color: #ffffff;
 }
 
 .flexarticle {
@@ -36,6 +37,7 @@ footer{
     flex-direction:row;
     justify-content:space-between;
     align-items: center;
+    margin:2rem;
     color: #333333;
     border-top:solid 0.2rem #ffa90d;
     width:1201px,auto;
@@ -47,11 +49,15 @@ footer{
     justify-items: flex-end;
     text-align:right;
     padding: 1rem;
-    margin:1rem;
+    margin:2rem;
     background-color: lightgray;
     border: 1px solid #f8a433 ;
+    box-shadow: 2px 2px 2px 2px ,0px 0px 0px 1px,3.5px 1.5px 3.5px 1.5px, 0px 0px 0px 0px;
 }
+img{
+    box-shadow:10px 10px 10px 10px,0px 0px 0px 0px,15px 15px 5px 5px,0px 0px 0px 0px;
 
+}
 .manonimg {
     display: flex;
     flex:1;
@@ -63,26 +69,34 @@ footer{
     margin: 1rem;
     
 }
-
-h2, h1 {
-    width: fit-content;
-    margin-left:5rem;
+h3{
+    display: block;
+    text-align: end;
     color: #333333;
+}
+h2, h1 {
+    text-align: center;
+
+    margin-left:5rem;
     margin-top:3rem;
     background-color: #ffa90d;
     font-weight: 200;
-    border-radius: 8%;
+    border-radius: 5%;
+    box-shadow:10px 10px 10px 10px,0px 0px 0px 0px,15px 15px 5px 5px,0px 0px 0px 0px;
+
 }
 
 
 
 
-a:active{
-    color:#003057;
+a::before{
+    color:#000000;
 }
 
 a:hover{
     color:#ffffff;
 
 }
-
+a::after{
+    color:green;
+}

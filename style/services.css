@@ -7,11 +7,7 @@
     --couleur-fond2:cadetblue;
     --couleur-surbrillance: #ff4b00;
 }
-body{
-    background-image:url(../asset/img/jdq.svg);
-    background-size:15%;
 
-}
 main {
     font-family: 'Poppins', sans-serif;
 }

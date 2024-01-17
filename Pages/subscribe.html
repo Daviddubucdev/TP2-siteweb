@@ -7,96 +7,65 @@
     <title>Adhésion</title>
     <link rel="stylesheet" href="../style/subscribe.css" />
 </head>
-
 <body>
     <header>
         <!-- Ajoutez ici votre contenu d'en-tête -->
     </header>
 
-    <main class="pricingarray-page-container">
-        <h1> Nos forfaits</h1>
-        <section class="pricingarray-main-container">
-            <div class="pricingarray-row-small">
-                <div class="pricingarray-square-rowsmallfirst"></div>
-                <div class="pricingarray-square-row-top">
-                    <p class = "box-top-text">Basique</p>
-                </div>
-                <div class="pricingarray-square-row-top">
-                    <p class = "box-top-text">Prenium</p>
-                </div>
-                <div class="pricingarray-square-row-top">
-                    <p class = "box-top-text">VIP</p>
-                </div>
-            </div>
-            <div class="pricingarray-row-small">
-                <div class="pricingarray-square-rowsmall">
-                    <p class="left-side-box-text">Coût</p>
-                </div>
-                <div class="pricingarray-square-row">
-                    <p class="price-box">2,99$</p>
-                </div>
-                <div class="pricingarray-square-row">
-                    <p class="price-box">4,99$</p>
-                </div>
-                <div class="pricingarray-square-row">
-                    <p class="price-box">7,99$</p>
-                </div>
-            </div>
-            <div class="pricingarray-row-big">
-                <div class="pricingarray-square-rowsmall">
-                    <p class="left-side-box-text">Inclus </p>
-                </div>
-                <div class="pricingarray-square-row">
-                    <div class="listcontainer">
-                        <li>Newsletters</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Accès prioritaire</li>
-                    </div>
-                </div>
-                <div class="pricingarray-square-row">
-                    <div class="listcontainer">
-                        <li>Newsletters</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Accès à des archives complètes</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Accès prioritaire à des événements</li>
-                    </div>
-                </div>
-                <div class="pricingarray-square-row">
-                    <div class="listcontainer">
-                        <li>Newsletters</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Accès prioritaire</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Événement exclusif</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Pas de publicités intrusives</li>
-                    </div>
-                    <div class="listcontainer">
-                        <li>Mises à jour en temps réel</li>
-                    </div>
-                </div>
-            </div>
-            <div class="pricingarray-row-small">
-                <div class="pricingarray-square-rowsmall">
-
-                </div>
-                <div class="pricingarray-square-row-btn">
-                    <a href="/index.html" > <button class="btn-plans"> Ce plans </button></a>
-                </div>
-                <div class="pricingarray-square-row-btn">
-                    <a href="/index.html" > <button class="btn-plans"> Ce plans </button></a>
-                </div>
-                <div class="pricingarray-square-row-btn">
-                    <a href="/index.html" > <button class="btn-plans"> Ce plans </button></a>
-                </div>
-            </div>
+    <main>
+        <section class="entiremain">
+            <h2>Forfait d'adhésion</h2>
+            <table class="adhesiontable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Basique</th>
+                        <th>Prenium</th>
+                        <th>VIP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Coût</th>
+                        <td>2,99</td>
+                        <td>5,97</td>
+                        <td>7,98</td>
+                    </tr>
+                    <tr class="parentcontainer">
+                        <th>Inclus</th>
+                        <td class="forfaitbasique">
+                            <div class="contentbox">
+                                <p>Newsletters</p>
+                                <p>Accès prioritaire</p>
+                            </div>
+                        </td>
+                        <td class="forfaitprenium">
+                            <div class="contentbox">
+                                <p>Newsletters</p>
+                                <p>Accès à des archives complètes</p>
+                                <p>Accès prioritaire à des événements</p>
+                            </div>
+                        </td>
+                        <td class="forfaitvip">
+                            <div class="contentbox">
+                                <p>Newsletters</p>
+                                <p>Accès prioritaire</p>
+                                <p>Événement exclusif</p>
+                                <p>Pas de publicités intrusives</p>
+                                <p>Mises à jour en temps réel</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <tfoot>
+                        <th></th>
+                        <td><button class="adhesion-button"><a href="/index.html" >Ce plan</a></button></td>
+                        <td><button class="adhesion-button"><a href="/index.html" >Ce plan</a></button></td>
+                        <td><button class="adhesion-button"><a href="/index.html" >Ce plan</a></button></td>
+                        </tfoot>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
 
