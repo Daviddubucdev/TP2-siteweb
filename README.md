@@ -15,10 +15,7 @@ Bienvenue sur le répertoire GitHub du "Journal de Qoubec", une initiative étud
 - [À Propos](#-à-propos)
 - [Fonctionnalités](#-fonctionnalités)
 - [Technologies Utilisées](#-technologies-utilisées)
-- [Installation](#-installation)
-- [Comment Contribuer](#-comment-contribuer)
-- [Licence](#-licence)
-- [Contact](#-contact)
+
 
 ## 📜 À Propos
 
