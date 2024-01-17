@@ -1,5 +1,7 @@
+/* Import de la police Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Définition des variables de couleur */
 :root {
     --couleur-principale: #003057;
     --couleur-secondaire: #f8a433;
@@ -10,10 +12,12 @@
     --couleur-surbrillance: #ff4b00;
 }
 
+/* Style global du texte */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins','roboto' sans-serif;
 }
 
+/* Style de la section principale */
 main {
     width: 100%;
     padding-left: 10rem;
@@ -22,6 +26,7 @@ main {
     background-size: 12%;
 }
 
+/* Style de la table */
 table {
     height: 25rem;
     width: 60rem;
@@ -29,6 +34,7 @@ table {
     background-color:#ffffff;
 }
 
+/* Style des cellules de la table */
 .adhesiontable th,
 .adhesiontable td {
     text-align:center;
@@ -36,15 +42,18 @@ table {
     color: #333333;
 }
 
+/* Style des titres de colonnes de la table */
 .adhesiontable th {
     background-color: #f2f2f2;
     height:50px;
 }
 
+/* Style au survol des lignes de la table */
 .adhesiontable tr:hover {
     background-color: #f5f5f5a9;
 }
 
+/* Style des titres de niveau H2 */
 h2 {
     display:block;
     width: fit-content;
@@ -54,49 +63,42 @@ h2 {
     box-shadow: 2px 2px 2px 2px ,0px 0px 0px 1px,3.5px 1.5px 3.5px 1.5px, 0px 0px 0px 0px;
 }
 
-
+/* Style des cellules de tableau */
 td {
-    border: gray solid 2px;
-    
+    border: gray solid 2px; 
 }
 
-.contentbox{
+/* Style de la boîte de contenu */
+.contentbox {
     display: flex;
     flex-direction: column;
     font-size: large;
 }
 
-.forfaitbasique{
+/* Styles des forfaits */
+.forfaitbasique, .forfaitprenium, .forfaitvip {
     display:table-cell;
     border:2px solid gray;
     vertical-align: top;
 }
 
-.forfaitprenium{
-    display:table-cell;
-    border:2px solid gray;
-    vertical-align: top;
-}
-
-.forfaitvip{
-    display:table-cell;
-    border:2px solid gray;
-    vertical-align: top;
-}
+/* Style des paragraphes dans la boîte de contenu */
 .contentbox p {
-border-bottom: 2px solid gray;
-color: #333333;
+    border-bottom: 2px solid gray;
+    color: #333333;
 }
 
-.adhesion-button{
-
+/* Style des boutons d'adhésion */
+.adhesion-button {
     cursor: pointer;
     border: 3px solid;
     padding: 0.25em 0.5em;
     box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
     position: relative;
     user-select: none;
-    }
+}
+
+/* Style des liens dans les boutons */
 button a {
     text-decoration: none;
     font-size: 16px;
@@ -104,5 +106,4 @@ button a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-
 }

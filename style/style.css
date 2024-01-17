@@ -1,74 +1,110 @@
+/* Import de la police Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Définition des variables de couleur */
 :root {
     --couleur-principale: #003057;
     --couleur-secondaire: #f8a433;
     --couleur-tertiaire: #ffa90d;
     --couleur-texte: #333333;
     --couleur-fond: #ffffff;
-    --couleur-fond2:cadetblue;
+    --couleur-fond2: cadetblue;
     --couleur-surbrillance: #ff4b00;
 }
-body{
-    font-family: 'Poppins',sans-serif;
-    
-}
-.index-main-container {
-    display: flex;
-        flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 4rem;
-    margin-right: 4rem;
+
+/* Style global du texte */
+body {
+    font-family: 'Poppins', sans-serif,'roboto';
 }
 
-
-h1{
-color: #333333;
-border-top: solid 0.7rem var(--couleur-surbrillance);
-border-top-style:groove;
-padding-bottom: 2rem;
-margin-right: 40%;
-padding-top: 2rem;
-background-color:#ffa90d;
-background-size: 40rem;
-border-radius: 7%;
-width: max-content;
-}
-h4{
-    color: #333333;
-    border-top: solid 0.2rem  groove,  var(--couleur-surbrillance);
-
-
-}
-.who-we-are {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+/* Style de la section principale */
+main {
     width: 100%;
+    padding-left: 10rem;
+    padding-top: 7%;
+    background-image:url(../asset/img/jdq.svg);
+    background-size: 12%;
 }
 
-.who-text {
+/* Style de la table */
+table {
+    height: 25rem;
+    width: 60rem;
+    box-shadow: 2px 2px 2px 2px ,0px 0px 0px 1px,3.5px 1.5px 3.5px 1.5px, 0px 0px 0px 0px;
+    background-color:#ffffff;
+}
+
+/* Style des cellules de la table */
+.adhesiontable th,
+.adhesiontable td {
+    text-align:center;
+    border-bottom: 0.2rem solid #ffffff;
+    color: #333333;
+}
+
+/* Style des titres de colonnes de la table */
+.adhesiontable th {
+    background-color: #f2f2f2;
+    height:50px;
+}
+
+/* Style au survol des lignes de la table */
+.adhesiontable tr:hover {
+    background-color: #f5f5f5a9;
+}
+
+/* Style des titres de niveau H2 */
+h2 {
+    display:block;
+    width: fit-content;
+    border:2px solid black;
+    color: #333333;
+    text-align: start;
+    box-shadow: 2px 2px 2px 2px ,0px 0px 0px 1px,3.5px 1.5px 3.5px 1.5px, 0px 0px 0px 0px;
+}
+
+/* Style des cellules de tableau */
+td {
+    border: gray solid 2px; 
+}
+
+/* Style de la boîte de contenu */
+.contentbox {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    width: 599px;
-    color:#333333;
+    font-size: large;
 }
 
-.video-right {
-    display: flex;
-    margin: auto;
-    padding-top:1rem;
-    padding-bottom:1rem;
-    padding-right:2rem;
-    background-color: #ffa90d;    
-    border-radius: 7%;
+/* Styles des forfaits */
+.forfaitbasique, .forfaitprenium, .forfaitvip {
+    display:table-cell;
+    border:2px solid gray;
+    vertical-align: top;
 }
 
-video{
-    width:599px;
+/* Style des paragraphes dans la boîte de contenu */
+.contentbox p {
+    border-bottom: 2px solid gray;
+    color: #333333;
 }
-.svgjdq {
-    width:500px;
-    padding:0px;
+
+/* Style des boutons d'adhésion */
+.adhesion-button {
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+}
+
+/* Style des liens dans les boutons */
+button a {
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
 }

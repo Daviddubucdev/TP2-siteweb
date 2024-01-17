@@ -1,63 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Définition des variables de couleur */
 :root {
     --couleur-principale: #003057;
     --couleur-secondaire: #f8a433;
     --couleur-tertiaire: #ffa90d;
     --couleur-texte: #333333;
     --couleur-fond: #ffffff;
-    --couleur-fond2:cadetblue;
+    --couleur-fond2: cadetblue;
     --couleur-surbrillance: #ff4b00;
 }
 
+/* Style de police pour la balise <main> */
 main {
-    font-family: 'Poppins', sans-serif;
-}
-.main-section1{
-display: flex;
-flex-direction:column;
-justify-content: center;
-width: 100%;
-height:25rem;
+    font-family: 'Poppins','roboto' sans-serif;
 }
 
-.main-section2{
+/* Style pour la première section principale de la page */
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:25rem;
+}
+
+/* Style pour la deuxième section principale de la page */
+.main-section2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height:15rem;
-    }
+    height: 15rem;
+}
 
-.parent-box-art{
+/* Style de la boîte parent pour l'art */
+.parent-box-art {
     display:flex;
     flex:3;
     justify-content:center;
     align-items:center;
-    width:100%;      
-                                                                                                 
+    width:100%; 
 }
 
-.child-box-art{
+/* Style de la boîte enfant pour l'art */
+.child-box-art {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin:1rem;
-    height:20rem;
-    width:17rem;
-    border:#333333 solid 1px;
+    margin: 1rem;
+    height: 20rem;
+    width: 17rem;
+    border: #333333 solid 1px;
     margin-bottom: 3%;
     background-color: cadetblue;
 }
-.inception-box{
+
+/* Style de la boîte parent pour la section "Inception" */
+.inception-box {
     display:flex;
-    justify-content: center;
+    justify-content:center;
     width:80%;
     height: 38%;
 }
 
-.parent-box2{
+/* Style de la deuxième boîte parent */
+.parent-box2 {
     display:flex;
     flex:3;
     justify-content:center;
@@ -68,36 +80,36 @@ height:25rem;
     border-top-right-radius:5%;
     border-top-left-radius: 5%;
     border:solid 2px #003057;
-    
 }
 
-.child-box2{
-    display:flex;
-    justify-content:space-around;
+/* Style de la deuxième boîte enfant */
+.child-box2 {
+    display: flex;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    margin-left:5rem;
+    margin-left: 5rem;
     height: 87%;
-    background-color:#f8a433;
+    background-color: #f8a433;
     border-start-end-radius: 25%;
     border-start-start-radius: 25%;
-    border-end-end-radius:10%;
-    border-end-start-radius:10%;
-
-
+    border-end-end-radius: 10%;
+    border-end-start-radius: 10%;
 }
-.mrbadnuggetimg{
+
+/* Style de l'image Mr. Badnugget */
+.mrbadnuggetimg {
     width: 100px;
     height: 100px;
-    border-radius:3rem;
+    border-radius: 3rem;
 }
 
-
+/* Style des titres h2 et h3 */
 h2, h3 {
     width: fit-content;
-    margin-left:5rem;
+    margin-left: 5rem;
     color: #333333;
-    margin-top:3rem;
+    margin-top: 3rem;
     background-color: #ffa90d;
     font-weight: 200;
     border-radius: 8%;
