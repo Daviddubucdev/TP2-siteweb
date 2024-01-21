@@ -13,8 +13,9 @@
 }
 
 /* Style de police pour la balise <main> */
-main {
-    font-family: 'Poppins','roboto' sans-serif;
+body {
+    background-image: radial-gradient(circle at top right, var(--couleur-principale) 0%, var(--couleur-fond) 35%, var(--couleur-fond2) 100%);
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Style pour la première section principale de la page */
@@ -95,6 +96,7 @@ main {
     border-start-start-radius: 25%;
     border-end-end-radius: 10%;
     border-end-start-radius: 10%;
+    font-family: 'roboto','poppins';
 }
 
 /* Style de l'image Mr. Badnugget */
