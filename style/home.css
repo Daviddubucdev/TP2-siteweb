@@ -12,7 +12,7 @@
    margin-top: 20px;
    
 }
-.video-hero-container{
+.img-hero-container{
     width: 100%;
     height:100%;
     position: relative;
@@ -23,13 +23,11 @@
     overflow: hidden;
     z-index: 0;
 }
-.video-hero{
-   width:100%;
-   height:auto;
-   object-fit: contain;
-   filter: brightness(60%);
+.img-hero{
+    width: 100%;
+    height:auto;
+    filter: brightness(50%);
 }
-
 .hero-content{
     position: absolute;
     z-index: 10;
@@ -91,3 +89,46 @@
 .hero-button-link:visited{
     color:var(--background)
 }
+
+.about-us-section{
+    width: 100%;
+    height:500px;
+    margin-top: 80px;
+
+}
+
+.about-us-inner-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:100%;
+    height:100%;
+
+}
+
+.about-us-text-container{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-us-video-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height:100%;
+    background-color: aqua;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-us-video{
+    width: auto;
+    height:100%;
+    object-fit: contain;
+    filter: brightness(60%);
+ }
+ 
