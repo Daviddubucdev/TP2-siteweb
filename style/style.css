@@ -4,13 +4,13 @@
 
 /* Variables globales pour les couleurs utilisées dans le site. */
 :root {
-    --couleur-fond: #ffffff;
-    --couleur-fond2: cadetblue;
-    --couleur-principale: #003057;
-    --couleur-secondaire: #f8a433;
-    --couleur-surbrillance: #ff4b00;
-    --couleur-tertiaire: #ffa90d;
-    --couleur-texte: #333333;
+    --background: #ffffff;
+    --background-two: cadetblue;
+    --primary: #003057;
+    --secondary: #f8a433;
+    --hover: #ff4b00;
+    --third: #ffa90d;
+    --text: #333333;
 }
 
 /* Style de base pour le body, définit la police globalement ainsi que l'orientation complète de la page*/

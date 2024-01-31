@@ -15,18 +15,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="home-page">
 <header class="header-container">
     <nav class="header-nav">
-       <div class="left-header-section">
-          <img src="./asset/img/jdq.svg" class="header-logo"/>
-       </div>
+       <ul class="left-header-section">
+         <li class="img-nav-link"><a href="/index.html"><img src="./asset/img/jdq.svg" class="header-logo" alt="logo-journal-qoubec"/></a></li>  
+       </ul>
      <div class="right-header-section">
           <ul class="ul-nav">
-            <li class="nav-link"><a class="link">Actualités</a></li>
-            <li class="nav-link"><a class="link">Nos forfaits</a></li>
-            <li class="nav-link"><a class="link">Blogue</a></li>
-            <li class="nav-link"><a class="link">Nous joindre</a></li>
+            <li class="nav-link">
+              <a href="./pages/services.html" class="link">Nos services</a>
+              <div class="nav-link-underline"></div>
+            </li>
+
+            <li class="nav-link">
+                <a href="./pages/subscribe.html" class="link">Nos forfaits</a>
+                <div class="nav-link-underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="./pages/news.html" class="link">Blogue</a>
+                <div class="nav-link-underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="./pages/contact.html" class="link">Nous joindre</a>
+                <div class="nav-link-underline"></div>
+            </li>
           </ul>
      </div>
     </nav>

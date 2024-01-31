@@ -1,8 +1,7 @@
-
 /* style général pour le header */
 .header-container{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     width:100%;
     height:80px;
     width:100%;
@@ -10,4 +9,112 @@
     position: fixed;
     top:0;
     background-color: white;
+}
+
+/* container intérieur du header pour respecter la largeur minimum */
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100%;
+    max-width: 1200px;
+}
+
+
+/* container de gauche qui englobe le logo */
+.left-header-section{
+   width:20%;
+   height:100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding:0;
+}
+
+
+
+/* lien qui englobe le logo */
+.img-nav-link{
+    width: fit-content;
+    height: fit-content;
+}
+
+/* image du logo */
+.header-logo{
+    width:150px;
+    height:auto;
+}
+
+
+/* container de droite qui englobe les liens du header */
+.right-header-section{
+    width:80%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* liste de navigation englobant les liens */
+.ul-nav{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:100%;
+    justify-content: flex-end;
+}
+
+/* container englobant chaque lien */
+.nav-link{
+    width: 150px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* lien ainsi que le style */
+.link{
+font-family: "Poppins", "sans-serif";
+font-weight: 200;
+color: var(--text); 
+text-decoration: none;
+background-color:transparent;
+border-radius: 10px;
+padding-top:5px;
+padding-bottom:5px;
+padding-inline: 10px;
+}
+
+/* ligne underline appliqué lorsque l'élément est survolé */
+.nav-link-underline{
+    opacity: 0;
+    transition: all ease-in 0.2s;
+    width: 100%;
+    height:2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+
+
+.nav-link:hover  .nav-link-underline{
+    opacity: 1;
+}
+
+.nav-link:active .nav-link-underline{
+    opacity: 1;
 }
