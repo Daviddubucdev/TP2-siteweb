@@ -13,10 +13,23 @@
     --couleur-texte: #333333;
 }
 
-/* Style de base pour le body, définit la police globalement. */
+/* Style de base pour le body, définit la police globalement ainsi que l'orientation complète de la page*/
 body {
-    background-image: radial-gradient(circle at top right, var(--couleur-principale) 0%, var(--couleur-fond) 35%, var(--couleur-fond2) 100%);
     font-family: 'Poppins', sans-serif;
+    padding:0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Section main pour mettre le cadre dans un container de 1200px*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
 }
 
 /* Style de la section principale avec display flex et gestion de l'espacement. */
