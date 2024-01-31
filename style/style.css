@@ -6,6 +6,7 @@
 :root {
     --background: #ffffff;
     --background-two: cadetblue;
+    --background-footer: rgb(239, 239, 239);
     --primary: #003057;
     --secondary: #f8a433;
     --hover: #ff4b00;
