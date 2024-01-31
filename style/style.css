@@ -23,66 +23,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Section main pour mettre le cadre dans un container de 1200px*/
 .main-container{
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
-}
-
-/* Style de la section principale avec display flex et gestion de l'espacement. */
-.index-main-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-
-/* Style pour h1 avec couleur, bordure, padding, background et autres propriétés de mise en forme. */
-h1 {
-    background-image: linear-gradient(45deg, var(--couleur-tertiaire) 0%, var(--couleur-secondaire) 100%);
-    border-top-color: var(--couleur-surbrillance); /* Utilisation de la couleur de surbrillance pour la bordure */
-    color: var(--couleur-texte);
-}
-
-/* Style pour h4 avec couleur et bordure. */
-h4 {
-    border-top: solid 0.2rem groove var(--couleur-surbrillance);
-    color: var(--couleur-texte);
-}
-/* Style de la section "Qui sommes-nous" avec flexbox pour aligner le texte à gauche et la vidéo à droite */
-.who-we-are {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    align-items: flex-start; 
+    justify-content: center;
     width: 100%;
-    
+    max-width: 1200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
-/* Styles pour le texte dans le bloc "Qui sommes-nous" */
-.who-text {
-    order: 1;
-    flex: 1; 
-    max-width: 599px; 
-    padding-right: 1rem;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
-}
-
-/* Styles pour le bloc à droite contenant la vidéo */
-.video-right {
-    order: 2; /* La vidéo vient en second */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Règles pour les vidéos, positionnement à droite maintient de celle-ci */
-video {
-    padding-top:20%;
-    width:480px;
-    height: auto; 
-}
